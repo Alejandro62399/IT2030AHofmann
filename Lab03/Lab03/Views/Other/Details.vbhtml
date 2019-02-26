@@ -12,15 +12,6 @@ End Code
 
 </head>
 <body>
-	<div class="header">
-		<center>
-			<h1>Welcome to XYZ Store</h1>
-		</center>
-	</div>
-	</b>
-	<div class="footer">
-	</div>
-	</div>
 	<div class="body">
 		<header>
 			<center>
@@ -50,16 +41,9 @@ End Code
 			<h3>Contact Information:</h3>
 			Phone Number: (440) 555-1234
 			<br />
-			E-mail: Computer.Essentials@CE.com
+			E-mail: XYZ.Store@XYZ.com
 			<br />
 			Mailing Address: 10101 Carnegie Avenue
 			</div>
 		<br /><br />
 
-<footer>
-	<center>
-		<h1>
-		Copyright of XYZ Store
-			</h1>
-	</center>
-</footer>
