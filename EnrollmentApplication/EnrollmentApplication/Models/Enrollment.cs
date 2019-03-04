@@ -25,5 +25,8 @@ namespace EnrollmentApplication.Models
         [RegularExpression(@"^[0-2018]*$")]
         public virtual int EnrollmentYear { get; set; }
 
+        [InvalidChars(20)]
+        public virtual string Notes { get; set; }
+        
     }
 }
