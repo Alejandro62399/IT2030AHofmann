@@ -11,20 +11,11 @@ namespace EnrollmentApplication.Models
         public virtual int StudentId { get; set; }
         [Required]
         [StringLength(50)]
-        public virtual string StudentFirstName { get; set; }
+        public virtual int StudentFirstName { get; set; }
         [Required]
         [StringLength(50)]
-        public virtual string StudentLastName { get; set; }
-
-        public string Address1 { get; set; }
-        public string Address2 { get; set; }
-        public string City { get; set; }
-        [StringLength(5, ErrorMessage = "Enter a 5 digit zipcode")]
-        public string Zipcode { get; set; }
-        [StringLength(2, ErrorMessage = "Enter a 2 digit state code")]
-        public string State { get; set; }
-
-
+        public virtual int StudentLastName { get; set; }
+     
 
     }
 }
