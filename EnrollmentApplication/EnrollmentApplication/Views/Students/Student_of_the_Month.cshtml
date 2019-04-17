@@ -1,0 +1,12 @@
+﻿@model IEnumerable<EnrollmentApplication.Models.Student>
+
+<div id="Student_of_the_Month">
+	<ul>
+		@foreach (var item in Model)
+		{
+			<li>"item.StudentFirstName + item.StudentLastName"</li>
+		}
+	</ul>
+
+</div>
+

@@ -12,8 +12,9 @@ namespace EnrollmentApplication.Controllers
 {
     public class EnrollmentController : Controller
     {
-        private EnrollmentDB db = new EnrollmentDB();
 
+        private EnrollmentDB db = new EnrollmentDB();
+       
         // GET: Enrollment
         public ActionResult Index()
         {

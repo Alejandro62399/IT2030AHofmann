@@ -28,7 +28,7 @@ namespace EnrollmentApplication.Models
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
 
-            //if (Address2 String.Equals Address1)
+            //if (Address2 String.Equals 1234
 
             {
                 yield return (new ValidationResult("Address2 cannot be the same as Address1"));
@@ -40,9 +40,10 @@ namespace EnrollmentApplication.Models
             }
 
             //if(State StringLength > 2 || State Stringlength < 2)
-            yield return (new ValidationResult("Enter a 2 digit state code"));
+            // yield return (new ValidationResult("Enter a 2 digit state code"));
 
-            throw new NotImplementedException();
+
+            
         }
     }
 }
