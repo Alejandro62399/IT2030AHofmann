@@ -1,0 +1,20 @@
+﻿@model IEnumerable<MVCMusicStoreApplication.Models.Album>
+
+<div class="panel panel-primary">
+	<h3 class="panel-title"></h3>
+</div>
+
+<div id="album-details">
+	<p>
+		<em>Artist:</em>
+	</p>
+	<p>
+		<em>Price:</em>
+		@String.Format("{0:F}", Model)
+	</p>
+
+	@Html.ActionLink("Add to cart", "AddToCart",
+	"ShoppingCart",
+	new { id = Model })
+
+</div>

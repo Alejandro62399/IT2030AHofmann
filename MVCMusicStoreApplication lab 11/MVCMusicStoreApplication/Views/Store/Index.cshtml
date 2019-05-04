@@ -1,0 +1,11 @@
+﻿@model IEnumerable<MVCMusicStoreApplication.Models.Album>
+
+<div id="albumsearch">
+	<ul>
+		@foreach (var item in Model)
+		{
+			<li>@item.Title</li>
+		}
+	</ul>
+
+</div>
